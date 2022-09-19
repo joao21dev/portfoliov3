@@ -23,6 +23,8 @@ const Projects = () => {
             https://quiet-anchorage-04201.herokuapp.com/
           </a>
         </p>
+<p>Criado em: 12/12/2021
+            </p>
         <Img
           src="https://i.ibb.co/7kh9jYK/Screenshot-1.png"
           alt="The project miniature"
@@ -39,6 +41,8 @@ const Projects = () => {
             https://musing-clarke-9db6ae.netlify.app//
           </a>
         </p>
+<p>Criado em: 24/11/2021
+            </p>
         <Img
           src="https://i.ibb.co/1bncKZh/Screenshot-from-2021-12-12-00-52-31.png"
           alt="The project miniature"
