@@ -7,7 +7,7 @@ const About = () => {
       <h1 id="about">Sobre</h1>
 
       <p>
-        Olá, me chamo João e sou desenvolvedor Front-end com sólido conhecimento em ReactJs, Javascript, TypeScript, React Native e outras tecnologias que uso para criar aplicações web/mobile de alto nível e valor. Também possuo habilidades no Back-end, onde tenho experiência desenvolvendo aplicações com NodeJs, Express e MongoDB.
+    Olá, me chamo João e sou Desenvolvedor Front-end com sólido conhecimento em ReactJs, Javascript, TypeScript, React Native e outras tecnologias que uso para criar aplicações web/mobile de alto nível e valor. Também possuo habilidades no Back-end, onde tenho experiência desenvolvendo aplicações com NodeJs, Express e MongoDB. Atualmente trabalho numa Startup que desenvolve bancos digitais, onde sou responsável por 100% do desenvolvimento Frontend das plataformas de Internet Banking utilizando React e Typescript.
       </p>
     </Container>
   );
