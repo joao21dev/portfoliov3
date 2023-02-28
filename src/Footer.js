@@ -28,7 +28,7 @@ const Footer = () => {
         <Email style={{ fontSize: 40 }} />
       </a>
       <a
-        href="https://drive.google.com/file/d/1uJZd_P28HoL4e3NrgK615xnIGRb0zOZd/view?usp=sharing"
+        href="https://drive.google.com/file/d/1Nekt2Zr4e9W0MHzKPHhTnTXec8Ae92Ha/view?usp=sharing"
         target="_blank"
       >
         <PictureAsPdf style={{ fontSize: 40 }} />
