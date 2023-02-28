@@ -7,7 +7,20 @@ const About = () => {
       <h1 id="about">Sobre</h1>
 
       <p>
-    Olá, me chamo João e sou Desenvolvedor Front-end com sólido conhecimento em ReactJs, Javascript, TypeScript, React Native e outras tecnologias que uso para criar aplicações web/mobile de alto nível e valor. Também possuo habilidades no Back-end, onde tenho experiência desenvolvendo aplicações com NodeJs, Express e MongoDB. Atualmente trabalho numa Startup que desenvolve bancos digitais, onde sou responsável por 100% do desenvolvimento Frontend das plataformas de Internet Banking utilizando React e Typescript.
+        Desenvolvedor de Software apaixonado pelo <b>Frontend</b> com sólido
+        conhecimento em <b>ReactJs</b>, <b>TypeScript</b> e outras tecnologias
+        que uso para criar aplicações <b>Web</b> de alto nível e valor. Também
+        possuo grande conhecimento no <b>Backend</b>, onde tenho experiência
+        profissional desenvolvendo aplicações com <b>TypeScript</b> e{" "}
+        <b>NestJs</b>. Atualmente trabalho na Devnology IN8, em um time{" "}
+        <b>FullStack</b>, desenvolvendo <b>Back</b> e <b>Front</b> seguindo
+        padrões de arquitetura (<b>Microsserviços</b>), design principles (
+        <b>SOLID</b>). Atuei também por 8 meses como <b>Frontend</b> numa
+        startup que desenvolve produtos relacionados a Bank as a Service onde
+        era responsável pelo desenvolvimento <b>Frontend</b> de plataformas
+        financeiras. Além disso, também tenho experiência profissional com
+        desenvolvimento <b>Mobile</b> em <b>Flutter</b> e já desenvolvi projetos
+        em <b>React Native</b>.
       </p>
     </Container>
   );
@@ -22,6 +35,9 @@ const Container = styled.div`
   }
 
   h1 {
+    color: #5434af;
+  }
+  b {
     color: #5434af;
   }
 
