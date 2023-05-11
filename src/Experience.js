@@ -9,14 +9,26 @@ const Experience = () => {
       <h3>Devnology - IN8</h3>
       <p>Início: 11/2022 | Atualmente</p>
       <p>
-        Atividades: Desenvolvedor Full Stack atuando tanto no Frontend em
+        Atividades: Faço parte de um time fullstack atuando tanto no Frontend em
         Sistemas Administrativas (Typescript/React/Chakra UI/Atomic Design),
-        quanto no Backend com o desenvolvimento de REST API'S (NodeJS, nestHS,
-        TypeORM) de pagamentos em microsserviços, utilizando Clean Archtecture. 
+        quanto no Backend com o desenvolvimento de REST API'S (NodeJS, NestJS,
+        TypeORM) de pagamentos em microsserviços, utilizando conceitos de Clean Archtecture, Driven Domain Design e SOLID. 
+      </p>
+      <h4>Projetos</h4>
+      <p>
+        - Busca Milhas: API Payment Hub<a href="#paymentHub"> (saiba mais)</a>
+      </p>
+      <p>
+        - Busca Milhas: Dashboard Payment Hub Admin{" "}
+        <a href="#paymentHubAdmin"> (saiba mais)</a>
+      </p>
+      <p>
+        - Busca Milhas Start: Microsserviço de Cancelamento de Recorrência{" "}
+        <a href="#start"> (saiba mais)</a>
       </p>
       <h4>Tecnologias:</h4>
       <p>- Frontend: ReactJS, TypeScript, Redux, Chakra UI</p>
-      <p>- Backend: NodeJS, NestJS, TypeORM, Docker</p>
+      <p>- Backend: NodeJS, NestJS, TypeORM, Docker, MySQL</p>
       <p>- Testes Unitários: Jest e React Testing Library</p>
       <p>
         - Clean Archtecture, Microservices, Atomic Design e Design Principles
@@ -32,6 +44,12 @@ const Experience = () => {
         Atividades: Desenvolvedor Frontend responsável pelo desenvolvimento de
         plataformas de Internet Banking e outros produtos relacionados a Bank as
         a Service.
+      </p>
+      <h4>Projetos</h4>
+      <p>- Backoffice</p>
+      <p>- Internet Banking</p>
+      <p>
+        - GeoPay (Gateway de Pagamento) <a href="#geopay"> (saiba mais)</a>
       </p>
       <h4>Tecnologias:</h4>
       <p>- React com TypeScript (Redux, Zustand e ContextAPI)</p>
@@ -104,11 +122,10 @@ const Container = styled.div`
   }
 
   p {
-    color: #75848a;
+    color: #586063;
     line-height: 1.7;
     letter-spacing: 2px;
     font-weight: 300;
   }
 `;
 export default Experience;
-

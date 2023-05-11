@@ -14,13 +14,13 @@ const About = () => {
         profissional desenvolvendo aplicações com <b>TypeScript</b> e{" "}
         <b>NestJs</b>. Atualmente trabalho na Devnology IN8, em um time{" "}
         <b>FullStack</b>, desenvolvendo <b>Back</b> e <b>Front</b> seguindo
-        padrões de arquitetura (<b>Microsserviços</b>), design principles (
-        <b>SOLID</b>). Atuei também por 8 meses como <b>Frontend</b> numa
-        startup que desenvolve produtos relacionados a Bank as a Service onde
-        era responsável pelo desenvolvimento <b>Frontend</b> de plataformas
-        financeiras. Além disso, também tenho experiência profissional com
-        desenvolvimento <b>Mobile</b> em <b>Flutter</b> e já desenvolvi projetos
-        em <b>React Native</b>.
+        padrões de arquitetura (<b>Microsserviços</b>, <b>Port & Adapters</b>,{" "}
+        <b>Driven Domain Design</b>), design principles (<b>SOLID</b>). Atuei
+        também por 8 meses como <b>Frontend</b> numa startup que desenvolve
+        produtos relacionados a Bank as a Service onde era responsável pelo
+        desenvolvimento <b>Frontend</b> de plataformas financeiras. Além disso,
+        também tenho experiência profissional com desenvolvimento <b>Mobile</b>{" "}
+        em <b>Flutter</b> e já desenvolvi projetos em <b>React Native</b>.
       </p>
     </Container>
   );
@@ -42,7 +42,7 @@ const Container = styled.div`
   }
 
   p {
-    color: #75848a;
+    color: #586063;
     line-height: 1.7;
     letter-spacing: 2px;
     font-weight: 300;

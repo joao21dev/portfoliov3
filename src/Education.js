@@ -108,7 +108,7 @@ const Container = styled.div`
   }
 
   p {
-    color: #75848a;
+    color: #586063;
     line-height: 1.7;
     letter-spacing: 2px;
     font-weight: 300;

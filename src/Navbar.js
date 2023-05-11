@@ -8,7 +8,7 @@ const Navbar = () => {
     <Nav>
       <Logo className="font-face-gm" href="">
         <Avatar />
-        joao21<span>dev</span>
+        João Pedro Massarra
       </Logo>
       <Hamburguer onClick={() => setIsOpen(!isOpen)}>
         <span />

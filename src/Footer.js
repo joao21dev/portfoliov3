@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <Container>
       <h1>Contato</h1>
-      <a href="https://www.linkedin.com/in/joao21dev/" target="_blank">
+      <a href="https://www.linkedin.com/in/joaomassarra/" target="_blank">
         <LinkedIn style={{ fontSize: 40 }} />
       </a>
       <a href="https://github.com/joao21dev/" target="_blank">
@@ -28,7 +28,7 @@ const Footer = () => {
         <Email style={{ fontSize: 40 }} />
       </a>
       <a
-        href="https://drive.google.com/file/d/1Nekt2Zr4e9W0MHzKPHhTnTXec8Ae92Ha/view?usp=sharing"
+        href="https://drive.google.com/file/d/1ttWTmNVVg_M5_8WDlLOmFm-nCKJBDWBb/view?usp=sharing"
         target="_blank"
       >
         <PictureAsPdf style={{ fontSize: 40 }} />
