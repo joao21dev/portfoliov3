@@ -11,8 +11,8 @@ import {
 const Footer = () => {
   return (
     <Container>
-      <h1>Contato</h1>
-      <a href="https://www.linkedin.com/in/joaomassarra/" target="_blank">
+      <h1 id={"footer"}>Contato</h1>
+      <a href="https://www.linkedin.com/in/joao21dev/" target="_blank">
         <LinkedIn style={{ fontSize: 40 }} />
       </a>
       <a href="https://github.com/joao21dev/" target="_blank">
@@ -28,7 +28,7 @@ const Footer = () => {
         <Email style={{ fontSize: 40 }} />
       </a>
       <a
-        href="https://drive.google.com/file/d/1ttWTmNVVg_M5_8WDlLOmFm-nCKJBDWBb/view?usp=sharing"
+        href="https://docs.google.com/document/d/1hbfjtcS_sGQjcWNTifW9T4G13K8OAA7v/edit?usp=sharing&ouid=105091568570542229092&rtpof=true&sd=true"
         target="_blank"
       >
         <PictureAsPdf style={{ fontSize: 40 }} />

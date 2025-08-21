@@ -12,9 +12,9 @@ function App() {
     <Container>
       <Navbar></Navbar>
       <About />
-      <Experience />
+      {/*<Experience />*/}
       <Projects />
-      <Education />
+      {/*<Education />*/}
       <Footer />
     </Container>
   );

@@ -7,20 +7,14 @@ const About = () => {
       <h1 id="about">Sobre</h1>
 
       <p>
-        Desenvolvedor de Software apaixonado pelo <b>Frontend</b> com sólido
-        conhecimento em <b>ReactJs</b>, <b>TypeScript</b> e outras tecnologias
-        que uso para criar aplicações <b>Web</b> de alto nível e valor. Também
-        possuo grande conhecimento no <b>Backend</b>, onde tenho experiência
-        profissional desenvolvendo aplicações com <b>TypeScript</b> e{" "}
-        <b>NestJs</b>. Atualmente trabalho na Devnology IN8, em um time{" "}
-        <b>FullStack</b>, desenvolvendo <b>Back</b> e <b>Front</b> seguindo
-        padrões de arquitetura (<b>Microsserviços</b>, <b>Port & Adapters</b>,{" "}
-        <b>Driven Domain Design</b>), design principles (<b>SOLID</b>). Atuei
-        também por 8 meses como <b>Frontend</b> numa startup que desenvolve
-        produtos relacionados a Bank as a Service onde era responsável pelo
-        desenvolvimento <b>Frontend</b> de plataformas financeiras. Além disso,
-        também tenho experiência profissional com desenvolvimento <b>Mobile</b>{" "}
-        em <b>Flutter</b> e já desenvolvi projetos em <b>React Native</b>.
+          Desenvolvedor Fullstack com 4 anos de experiência, especializado em desenvolvimento backend e arquitetura de
+          software. Atuo em projetos de transformação digital, com expertise em Java, Quarkus, Typescript, React, MySQL, APIs
+          REST, computação em nuvem (AWS, GCP) e padrões de design como princípios SOLID, Clean Architecture e
+          Clean Code. Tenho sólida experiência em CI/CD, Docker, orquestração com Kubernetes e monitoramento com
+          Grafana/Prometheus/Loki, garantindo alta disponibilidade e escalabilidade dos sistemas. Além disso, projeto
+          sistemas de autenticação de nível empresarial usando Keycloak com Nginx para controle de acesso seguro. Minha
+          carreira abrange múltiplas indústrias, incluindo fintech e bancário, saúde e sistemas hospitalares, turismo e viagens,
+          educação e serviços para órgãos públicos. Busco novos desafios em projetos inovadores.
       </p>
     </Container>
   );

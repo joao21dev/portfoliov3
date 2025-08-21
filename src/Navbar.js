@@ -18,8 +18,8 @@ const Navbar = () => {
       <Menu isOpen={isOpen}>
         <MenuLink href="#about">Sobre</MenuLink>
         <MenuLink href="#projects">Projetos</MenuLink>
-        <MenuLink href="#education">Educação</MenuLink>
-        <MenuLink href="#experience">Profissional</MenuLink>
+        {/*<MenuLink href="#education">Educação</MenuLink>*/}
+        {/*<MenuLink href="#experience">Profissional</MenuLink>*/}
         <MenuLink href="#footer">Contato</MenuLink>
       </Menu>
     </Nav>

@@ -5,8 +5,24 @@ const Projects = () => {
   return (
     <Container>
       <h1 id="projects">Projetos</h1>
+
+        <h2 id="termografiaIA"> Plataforma de IA para Diagnóstico Termográfico (QUADRITECH)</h2>
+
+        <Wrapper>
+            <p>
+                Desenvolvi uma plataforma completa de inteligência artificial para diagnóstico médico através de imagens termográficas, atuando principalmente no <b>Backend</b>. Criei uma API robusta em <b>Java Quarkus</b> que funciona como uma esteira de criação e treinamento de modelos de IA, integrando com a <b>OpenAI</b> para criar novos modelos, realizar <b>fine-tuning</b>, retreinamento e retroalimentação contínua. O sistema permite que médicos adicionem imagens termográficas no frontend, a IA gera diagnósticos, e quando o médico aprova, esses dados retornam para a esteira de treinamento, criando um ciclo de melhoria contínua. Implementei <b>RAG (Retrieval-Augmented Generation)</b> utilizando <b>PgVector</b> como banco de dados vetorial, armazenando dados técnicos sobre termografia em embeddings. Quando uma imagem é analisada, transformamos a query em embeddings e realizamos busca por similaridade de cosseno para retornar chunks de artigos científicos relevantes que auxiliam no diagnóstico. Também desenvolvi uma dashboard administrativa em <b>React</b> com <b>Vite.js</b> para avaliação de modelos treinados, monitoramento de jobs, ingestão de documentos técnicos no banco vetorial e inserção de lotes de treinamento.
+            </p>
+        </Wrapper>
+
+        <h2 id="cinPara"> Emissão Nova CIN Pará (QUADRITECH)</h2>
+
+        <Wrapper>
+            <p>
+                Participei da implementação do novo sistema de emissão da Carteira de Identidade Nacional (CIN) do Pará, atuando em múltiplas frentes do projeto em Belém. No <b>Frontend</b>, utilizei <b>React</b> com <b>ShadCN</b> para desenvolver a interface do fluxo de coletas biométricas, incluindo um formulário de cadastro completo que coletava e validava dados pessoais, biometria dactilar e facial dos cidadãos. Esses dados eram enviados para validação da <b>SERPRO</b> antes da emissão da nova CIN. No <b>Backend</b>, contribuí para o desenvolvimento da API em <b>Java Quarkus</b> responsável pela validação dos dados coletados, seguindo uma arquitetura de <b>microsserviços</b>. Também participei do desenvolvimento de um microsserviço em <b>Node.js</b> com <b>NestJS</b> e <b>TypeScript</b> que se comunicava diretamente com a Receita Federal, realizando o envio dos dados já validados e finalizando o processo de emissão da carteira. Além disso, desenvolvi a arquitetura de <b>SSO (Single Sign-On)</b> utilizando <b>Keycloak</b> para gerenciar a autenticação e autorização dos usuários no sistema, implementando diferentes perfis de acesso para desenvolvedores, papiloscopistas, delegados, peritos papiloscopistas, peritos criminais e atendentes, garantindo que cada usuário tivesse acesso apenas às funcionalidades pertinentes ao seu cargo. O projeto apresentou desafios únicos relacionados à integração com sistemas governamentais e ao tratamento seguro de dados biométricos sensíveis.
+            </p>
+        </Wrapper>
       <a href="https://buscamilhas.com/" target="_blank">
-        <h2 id="paymentHubAdmin"> Busca Milhas: Payment Hub Admin</h2>
+        <h2 id="paymentHubAdmin"> Busca Milhas: Payment Hub Admin (IN8)</h2>
       </a>
 
       <Wrapper>
@@ -33,7 +49,7 @@ const Projects = () => {
       <a href="https://buscamilhas.com/lp/?" target="_blank">
         <h2 id="start">
           {" "}
-          Busca Milhas Start: Microsserviço de cancelamento de recorrência{" "}
+          Busca Milhas Start: Microsserviço de cancelamento de recorrência (IN8){" "}
         </h2>
       </a>
 
@@ -68,7 +84,7 @@ const Projects = () => {
         </p>
       </Wrapper>
       <a href="https://buscamilhas.com/" target="_blank">
-        <h2 id="paymentHub">Payment Hub</h2>
+        <h2 id="paymentHub">Payment Hub (IN8)</h2>
       </a>
 
       <Wrapper>
@@ -99,7 +115,7 @@ const Projects = () => {
       </Wrapper>
 
       <a href="https://buscamilhas.com/" target="_blank">
-        <h2 id="geopay">GeoPay (Gateway de Pagamento)</h2>
+        <h2 id="geopay">GeoPay - Gateway de Pagamento (HIPERBANCO)</h2>
       </a>
 
       <Wrapper>
